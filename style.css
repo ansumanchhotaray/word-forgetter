@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(#e2e3e3 1px, transparent 1px),
+        linear-gradient(90deg, #e3e4e4c1 1px, transparent 1px);
+    background-size: 40px 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navbar {
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+    padding: 1rem; 
+}
+
+.nav-menu {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-link {
+    color: #000000ad;
+    text-decoration: none;
+}
+
